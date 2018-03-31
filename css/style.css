@@ -7,6 +7,16 @@ body {
  background-color: #4CAF50;
   color: #F5F5F5;
 }
+.mdl-navigation__link{
+  font-size: 1.3em;
+}
+.mdl-navigation__link:hover,
+.mdl-layout__drawer-button:hover{
+  transition: all 0.4s ease-in-out;
+  background-color: #fff;
+  border-radius: 2px;
+  color: #293;
+}
 .mdl-card__media {
   background-color: #4CAF50;
 }
